@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="WelcomeJS" class="WelcomeC">Welcome to the JS intro</h1>
+    <!-- pull all -->
+    <p id="detailsJS" class="detailsC">This is made to pul the different parts of each element</p>
+    <img src="fish.jpg" alt="white and orange fish" id="fishimgJS" class="fishimgC">
+    <script>
+        //pull h1 tag
+        console.log(document.getElementById("WelcomeJS"));
+        console.log(document.querySelector("h1"));
+        console.log(document.querySelector("h1").id);
+        console.log(document.querySelector("h1").className);
+        console.log(document.querySelector("h1").innerHTML);
+
+        
+        // replace the long document.querySelctor("p") with just p
+        var pdetails = document.querySelector("p");
+        // pull p tag
+        console.log(pdetails);
+        console.log(pdetails.id);
+        console.log(pdetails.className);
+        console.log(pdetails.innerHTML);
+
+        //img tag pull
+        var imgfish = document.querySelector("img");
+        console.log(imgfish);
+        console.log(imgfish.id);
+        console.log(imgfish.className);
+        
+    </script>
+</body>
+</html>
